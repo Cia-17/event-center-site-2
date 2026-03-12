@@ -37,7 +37,7 @@ section{
 }
 
 footer{
-    background-color: rgb(164, 154, 154)
+    background-color: #f7f7f7
 }
 
 
@@ -205,7 +205,7 @@ footer{
 
 .card{
     display: grid;
-    grid-template-rows: 1fr 0.7fr;
+    grid-template-rows: 1fr 1fr;
     border: 1px solid black;
     margin-left: 20px;
 }
@@ -372,6 +372,14 @@ footer{
 
 @media (max-width: 960px) {
 
+    h1{
+        font-size: 55px
+    }
+
+    .hero-text h3{
+        font-size: 20
+    }
+
    .services-container{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -420,7 +428,7 @@ footer{
 
     .card{
         display: grid;
-        grid-template-rows: 0.8fr 0.4fr;
+        grid-template-rows: 0.8fr 0.7fr;
          
     }
 
@@ -428,6 +436,23 @@ footer{
     max-width: 100%;
     max-height: 100%; 
     }
+
+
+    .instagram-text{
+        font: 29px;
+    }
+
+
+    .contact-two{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .contact-two .email{
+        border: none;
+    }
+
+
 
 
 
