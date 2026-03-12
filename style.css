@@ -1,0 +1,438 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    background-color: #f7f7f7;
+    font-family: "Poppins", sans-serif;
+    
+}
+
+h1{
+    font-family: "Poppins", sans-serif;
+    font-size: 60px;
+    color: rgb(253, 255, 212);
+    padding: 12px 0 40px 0;
+    font-weight: 500;
+}
+
+h3{
+    font-size: 26px;
+}
+
+
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: blue;
+}
+
+section{
+    
+    padding: 48px 0 16px 0;
+    
+}
+
+footer{
+    background-color: rgb(164, 154, 154)
+}
+
+
+.our-services-section{
+    background-color: rgb(253, 255, 212);
+
+}
+
+.stats-section{
+    background-color: #f7f7f7;
+
+}
+
+.testimonials-section{
+    background-color: rgb(253, 255, 212);
+
+
+}
+
+.about-us-section{
+    background-color: #f7f7f7;
+}
+
+.instagram-section{
+    background-color: rgb(253, 255, 212);
+
+}
+
+
+
+
+.heading{
+    font-size: 36px;
+}
+
+
+.btns a{
+    border: 1px solid rgb(58, 144, 198);
+    border-radius: 9px;
+    padding: 10px 16px;
+    color: rgb(231, 231, 234);
+    background-color: rgb(58, 144, 198);
+    
+
+}
+
+.btns a:hover{
+    background-color: blue;
+    color: #f7f7f7;
+    
+}
+
+.btn-in-div{
+    margin: 35px 0 6px 0;
+    text-align: center;  
+}
+
+.btn-in-div a{
+    border: 1px solid rgb(58, 144, 198);
+    padding: 10px 8px;
+    border-radius: 9px;
+    color: rgb(231, 231, 234);
+    background-color: rgb(58, 144, 198);
+    
+}
+
+.btn-in-div a:hover{
+    background-color: blue;
+    color: #f7f7f7;
+}
+
+
+.contact-us-div{
+    margin: 1px 8px 0 0;
+}
+
+.contact-us-div a{
+    border: 1px solid rgb(58, 144, 198);
+    padding: 8px 6px;
+    border-radius: 9px;
+    color: rgb(231, 231, 234);
+    background-color: rgb(58, 144, 198);
+
+}
+
+/*nav section*/
+
+
+
+
+
+
+
+/* My Nav Content*/
+.nav-content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 10px 0 9px 0;
+}
+
+.logo{
+    padding-left: 12px;
+}
+
+.logo img{
+    max-width: 46px;
+    max-height: 46px;
+}
+
+
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    
+}
+
+.hero-section{
+    text-align: center;
+}
+
+.hero{
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.hero-text{
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.hero-video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(52%);
+    
+}
+
+
+.hero-content{
+    position: relative;
+    top: 35%;
+    
+}
+
+/* our-services-section*/
+
+.services-text{
+    text-align: center;
+    padding: 0px 0px 26px 0px;
+
+}
+
+
+.services-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0px 30px 30px 30px;
+}
+
+.card{
+    display: grid;
+    grid-template-rows: 1fr 0.7fr;
+    border: 1px solid black;
+    margin-left: 20px;
+}
+
+
+.card-header img{
+    max-width: 100%;
+    max-height: 100%;
+    
+}
+
+.card-body{
+    padding: 16px 10px 0px 10px; 
+}
+
+
+/* stats-section*/
+
+.stats-section-text{
+    max-width: 600px;
+    padding: 30px 30px 34px;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+
+.google-stars{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px 36px;
+}
+
+.google-stars .googlesvg img{
+    width: 26px;
+    margin-right: 10px;
+}
+
+.google-stars .fivestarsvg img{
+    width: 130px; 
+    padding-left: 20px;
+    padding-right: 16px;
+    margin-left: 10px;
+}
+
+.google-stars .no-reviews{
+    vertical-align: top;
+    margin-bottom: 3px;
+    margin-left: 10px;
+    
+}
+
+/* testimonials-section*/
+
+.testimonials-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0px 30px 30px 30px;
+    grid-gap: 15px;
+
+}
+
+.testimonials-card{
+    border: 1px solid black;
+    padding: 16px 10px 0px 10px; 
+    
+}
+
+.testimonials-card p{
+    padding: 18px 0px 14px 0; 
+}
+
+
+/* about us -section*/
+
+
+
+.about-us-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0px 30px 30px 30px;
+    margin-bottom: 20px;
+    
+}
+
+.about-us-text h2{
+    padding-bottom: 16px;
+}
+
+.about-us-text .btn-in-div{
+    text-align: left;
+}
+
+
+
+.about-us-maps iframe{
+    width: 100%;
+    height: 100vh;
+    padding: 12px 0 0 12px;
+}
+
+/* instagram -section*/
+
+.instagram-section{
+    padding-bottom: 46px;
+}
+
+.instagram-text{
+    text-align: center;
+}
+
+.instagram-btn{
+    text-align: center;
+}
+
+.instagram-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0px 30px 30px 30px;
+    grid-gap: 20px;
+    
+}
+
+.instagram-super-container{
+    margin: 30px 0;
+}
+
+
+
+/* footer -section*/
+
+
+.footer-container{
+    text-align: center;
+    padding-bottom: 40px;
+    
+}
+
+.socials-btns{
+    padding-top: 8px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+
+
+.footer-container h2{
+    padding-bottom: 40px;
+
+}
+
+.contact-two{
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+    padding-bottom: 20px;
+}
+
+.contact-two .email{
+    padding-right: 30px;
+    border-right: 2px solid black;   
+
+}
+
+@media (max-width: 960px) {
+
+   .services-container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 16px;
+    } 
+
+    .testimonials-container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 0px 30px 30px 30px;
+    grid-gap: 15px;
+
+    }
+    
+    .instagram-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 16px;
+
+    }
+
+
+    .about-us-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 25px;
+    }
+
+    .about-us-text{
+        text-align: center;
+    }
+
+    .about-us-text .btn-in-div{
+        text-align: center;
+    }
+
+    .about-us-maps iframe{
+        width: 100%;
+        height: 100%;
+        padding: 12px 16px 0 12px;
+    }
+
+    .hidden{
+        display: none;
+    }
+
+    .card{
+        display: grid;
+        grid-template-rows: 0.8fr 0.4fr;
+         
+    }
+
+    .card-header img{
+    max-width: 100%;
+    max-height: 100%; 
+    }
+
+
+
+
+
+
+
+}
