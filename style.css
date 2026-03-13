@@ -1,12 +1,12 @@
 *{
     margin: 0;
     box-sizing: border-box;
-    color: brown;
+    color: #80100F;
 }
 
 body{
     
-    background-color: #f7f7f7;
+    background-color: #F9E9DA;
     font-family: "Poppins", sans-serif;
     
 }
@@ -28,7 +28,6 @@ h3{
 a{
     text-decoration: none;
     cursor: pointer;
-    color: blue;
 }
 
 section{
@@ -38,12 +37,12 @@ section{
 }
 
 footer{
-    background-color: #f7f7f7
+    background-color: #043222;
 }
 
 
 .our-services-section{
-    background-color: rgb(253, 255, 212);
+    background-color: #EDEBDD; 
 
 }
 
@@ -53,7 +52,7 @@ footer{
 }
 
 .testimonials-section{
-    background-color: rgb(253, 255, 212);
+    background-color: #043222;
 
 
 }
@@ -63,7 +62,7 @@ footer{
 }
 
 .instagram-section{
-    background-color: rgb(253, 255, 212);
+    background-color: #EDEBDD;
 
 }
 
@@ -76,18 +75,17 @@ footer{
 
 
 .btns a{
-    border: 1px solid rgb(58, 144, 198);
+    border: 1px solid #043222;
     border-radius: 9px;
     padding: 10px 16px;
-    color: rgb(231, 231, 234);
-    background-color: rgb(58, 144, 198);
+    color:  #EDEBDD;
+    background-color: #043222;
     
-
 }
 
 .btns a:hover{
-    background-color: blue;
-    color: #f7f7f7;
+    background-color: #EDEBDD; 
+    color: #043222;
     
 }
 
@@ -97,11 +95,11 @@ footer{
 }
 
 .btn-in-div a{
-    border: 1px solid rgb(58, 144, 198);
+    border: 1px solid  #043222;
     padding: 10px 8px;
     border-radius: 9px;
-    color: rgb(231, 231, 234);
-    background-color: rgb(58, 144, 198);
+    color: #EDEBDD; 
+    background-color:  #043222;
     
 }
 
@@ -116,12 +114,10 @@ footer{
 }
 
 .contact-us-div a{
-    border: 1px solid rgb(58, 144, 198);
+    border: 1px solid #043222;
     padding: 8px 6px;
     border-radius: 9px;
-    color: rgb(231, 231, 234);
-    background-color: rgb(58, 144, 198);
-
+    background-color: #EDEBDD;
 }
 
 /*nav section*/
@@ -137,6 +133,7 @@ footer{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding: 10px 0 9px 0;
+    background-color: #f7f7f7;
 }
 
 .logo{
@@ -153,7 +150,10 @@ footer{
     display: flex;
     justify-content: space-between;
     padding: 10px 0;
-    
+}
+
+.nav-links a{
+    color: #043222;
 }
 
 .hero-section{
@@ -277,6 +277,11 @@ footer{
 
 .testimonials-card p{
     padding: 18px 0px 14px 0; 
+    color: #EDEBDE;
+}
+
+.testimonials-card h2{
+    color: #EDEBDE;
 }
 
 
@@ -294,6 +299,10 @@ footer{
 
 .about-us-text h2{
     padding-bottom: 16px;
+}
+
+.about-us-text p{
+    color: #000;
 }
 
 .about-us-text .btn-in-div{
@@ -343,12 +352,14 @@ footer{
     text-align: center;
     padding-bottom: 40px;
     
+    
 }
 
 .socials-btns{
     padding-top: 8px;
     display: flex;
     justify-content: space-evenly;
+    color: #EDEBDE;
     
 }
 
@@ -356,6 +367,7 @@ footer{
 
 .footer-container h2{
     padding-bottom: 40px;
+    color: #EDEBDE;
 
 }
 
@@ -366,12 +378,12 @@ footer{
 }
 
 .contact-two a{
-    color: brown;
+    color: #EDEBDE;
 }
 
 .contact-two .email{
     padding-right: 30px;
-    border-right: 2px solid black;   
+    border-right: 2px solid #EDEBDE;   
 
 }
 
@@ -565,6 +577,18 @@ footer{
 
 
 @media (max-width: 960px) {
+
+    .nav-content{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .nav-links{
+        display: flex;
+        justify-content: space-evenly;
+        padding: 10px 0;
+        font-size: 14px;
+    }
 
     h1{
         font-size: 55px
