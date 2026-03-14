@@ -2,17 +2,16 @@
     margin: 0;
     box-sizing: border-box;
     color: #80100F;
+    font-family: "Poppins", sans-serif;
 }
 
 body{
     
     background-color: #F9E9DA;
-    font-family: "Poppins", sans-serif;
     
 }
 
 h1{
-    font-family: "Poppins", sans-serif;
     font-size: 60px;
     padding: 12px 0 40px 0;
     font-weight: 500;
