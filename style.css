@@ -14,7 +14,6 @@ body{
 h1{
     font-family: "Poppins", sans-serif;
     font-size: 60px;
-    color: rgb(253, 255, 212);
     padding: 12px 0 40px 0;
     font-weight: 500;
 }
@@ -67,6 +66,9 @@ footer{
 }
 
 
+.hero-text h1{
+    color: rgb(253, 255, 212);
+}
 
 
 .heading{
@@ -104,21 +106,11 @@ footer{
 }
 
 .btn-in-div a:hover{
-    background-color: blue;
-    color: #f7f7f7;
+    background-color: #EDEBDD; 
+    color: #043222;
 }
 
 
-.contact-us-div{
-    margin: 1px 8px 0 0;
-}
-
-.contact-us-div a{
-    border: 1px solid #043222;
-    padding: 8px 6px;
-    border-radius: 9px;
-    background-color: #EDEBDD;
-}
 
 /*nav section*/
 
@@ -149,7 +141,7 @@ footer{
 .nav-links{
     display: flex;
     justify-content: space-between;
-    padding: 10px 0;
+    padding: 10px 30px;
 }
 
 .nav-links a{
@@ -206,7 +198,7 @@ footer{
 
 .card{
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr;
     border: 1px solid black;
     margin-left: 20px;
 }
@@ -219,7 +211,11 @@ footer{
 }
 
 .card-body{
-    padding: 16px 10px 0px 10px; 
+    padding: 16px 10px 26px 10px; 
+}
+
+.our-services-section .btn-in-div{
+    padding-bottom: 28px;
 }
 
 
@@ -437,7 +433,7 @@ footer{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 30px;
-    
+ 
     padding: 0 16px 0 0;
     
 }
@@ -452,7 +448,7 @@ footer{
 
 .about-page-hero-text{
    
-    padding: 50px 10px 100px 60px;
+    padding: 50px 10px 280px 60px;
 }
 
 .about-page-hero-h-one h1{
@@ -469,16 +465,16 @@ footer{
 .about-page-about-us-section{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    
     padding: 0 16px 0 16px;
 }
 
 .about-page-about-us-text{
     display: grid;
-    grid-template-columns: 0.5fr;
     grid-gap: 30px;
-    padding-left: 14px;
+    padding-left: 10px;
     align-content: center;
+    padding-right: 100px;
+    
 }
 
 .about-page-about-us-img {
@@ -487,6 +483,7 @@ footer{
     grid-gap: 10px;
     width: 100%;
     height: 100%;
+    
 }
 
 .about-page-about-us-img img{
@@ -514,6 +511,10 @@ footer{
     border-right: 1px solid;
 }
 
+.last-belief{
+        border-right: none;
+    }
+
 .about-belief p{
     text-align: center;
     padding: 10px 14px 0;
@@ -529,7 +530,7 @@ footer{
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 46px;
-    padding: 18px 16px 0 16px;
+    padding: 18px 16px 36px 16px;
     justify-items: center;
 
 }
@@ -559,8 +560,11 @@ footer{
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.35s ease;
-
     
+}
+
+.highlight{
+    background-color: #fb91d1;
 }
 
 
@@ -571,6 +575,50 @@ footer{
 .show-answer{
     display: block;
      max-height: 200px;
+}
+
+
+/*WORK PAGE */
+
+.work-page-hero-text{
+    text-align: center;
+    padding: 140px 40px 180px 40px;
+}
+
+.work-page-services-section-btns{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/*GALLERY PAGE*/
+.gallery-page-text{
+    text-align: center;
+    padding: 80px 40px 80px 40px;
+}
+
+.gallery-section-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    padding: 0 30px 0px;
+}
+
+.gallery-section-1-img{
+    width: 100%;
+    height: 100%;
+
+}
+
+.gallery-section-1 img{
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.gallery-cta{
+    padding: 0 0 30px;
 }
 
 
@@ -611,6 +659,11 @@ footer{
     grid-gap: 15px;
 
     }
+
+    .instagram-text{
+        font-size: 30px;
+
+    }
     
     .instagram-container{
         display: grid;
@@ -646,7 +699,7 @@ footer{
 
     .card{
         display: grid;
-        grid-template-rows: 0.8fr 0.7fr;
+        grid-template-rows: 0.6fr;
          
     }
 
@@ -687,6 +740,43 @@ footer{
         text-align: center;
     }
 
+    .about-page-hero{
+        display: block;
+    }
+
+    .about-page-hero-text{
+        text-align: start;
+        padding: 0px 30px;
+    
+    }
+
+    .about-page-hero-text h1{
+        font-size: 50px;
+    }
+    
+
+    .about-page-about-us-section{
+        display: block;
+    }
+
+    .about-page-about-us-text{
+        display: block;
+        padding: 0 10px;
+
+    }
+
+    .about-page-about-us-text h3{
+        padding: 20px 0;
+    }
+
+
+    
+
+
+    /*GALLERY PAGE*/
+    .gallery-section-1{
+        grid-template-columns: 1fr 1fr;
+    }
 
 
 
